@@ -1,0 +1,94 @@
+INTRODUCTION
+---
+---
+---
+Embedded system tanim?:
+Embedded systems are information processing systems embedded into a larger product
+in the slides
+Application specific computer system
+built into larger systems
+often with realtime computing constratins
+---
+---
+---
+Why add a computer to larger system?
+better perf, more func, lower cost for automation, more dependability
+---
+---
+---
+Cyber-Physical Systems and Embedded systems
+CPS = ES + Physical env  -> trcesi : integration of computations + networking + physical processlerin butunu
+
+Emerging CPS will be coordinated, disturbted, connnected olmasi gerekiyor ->  
+CONNNECTED = internet uzerinden erisilebilir olmasi
+DISTURBTED = Also known as disturbted computing and disturbted databases a collection of 
+independent components located on different machines that share messages with each other in order to achieve common goals.
+COORDINATED = you know that
+
+examples -> smart transportations, smart buildings, next-gen air traffic etc..
+---
+---
+---
+ Ubiquitous computing => her yerde bulunan computing?
+from wiki: where computing is made to appear anytime and everywhere. 
+In contrast to desktop computing, ubiquitous computing can occur using any device, in any location, and in any format. 
+example -> laptop tablets notebooks smartphones you got the idea
+---
+---
+---
+Microprocesscor (CPU)
+as a single processor core that supports at least instruction fetching, decoding, and executing. 
+important -L> Instruction fetching, decoding, executing must
+contains Memory interface, Register banks
+
+Instruction cycle -> meaning fetch-decode-execute
+modern cpus execution cycle is concurrent and parallel
+
+Instruction decoder -> The instruction decoder logic converts the op-code bits into settings for all the internal control lines. The operand provides a literal, file register address or program address, which will be used by the instruction.
+
+from wiki - multipurpose , clock-driven, register-based, digital integrated circuit 
+takes input binary output binary
+---
+---
+---
+MCU Microcontroller
+VLSI -> Very Large Scale Integration mil-bil MOS transistor to one single chip
+
+single processor core
+memory block, digitial io, analog io
+generally used for basic control
+contains one system bus
+we can think that as a SoC
+---
+---
+---
+Galiba bir embedded system tasarlarken dusunumemiz gereken stepler?
+Functions
+Constraits
+Inputs
+output
+Performence metrics?
+---
+---
+---
+What is IoT?
+The Internet of Things (IoT) describes the network of physical objects—“things”—that are embedded with sensors, 
+software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the internet.
+
+problems: 
+scalibility -> huge amount of data
+Interoperability -> doesn't include any standardatizion includes but not enought it is fragmanted
+Lack of goverment support -> like FDA doesn't come up with standard commmitte
+Safety op patients -> can be dangerous like wearable ones?
+Security And Personal Privacy -> Security security vulnerabilities and its improvements.
+Design based constraints -> limited computataion power, limited energy, limited memory
+always on causes increased connectivity-> artan network ihtiyaci
+demographic -> what? yozlasma mi
+
+IoT cihazlarini 4 gruba ayiralim ->  mobile, embedded, networking, connected community
+
+
+Why Iot -> Items can have more functionalites and become more intelligent
+items can be managed in easier way?
+more information becoma will available
+---

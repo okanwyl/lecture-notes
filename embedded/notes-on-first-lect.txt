@@ -91,4 +91,69 @@ IoT cihazlarini 4 gruba ayiralim ->  mobile, embedded, networking, connected com
 Why Iot -> Items can have more functionalites and become more intelligent
 items can be managed in easier way?
 more information becoma will available
+
+---
+---
+---
+Load Store architecture
+that divides instructions into two categories: memory access (load and store between memory and registers) 
+and ALU operations (which only occur between registers)
+---
+---
+---
+RISC 
+Reduced Instruction Set Computing (RISC) vs Complex Instruction Set Computing? computer (CISC)
+RISC probably need more instruction to set accompclish same exact result
+RISC generally load/store model -> 16-32 bit high speed general purpose registers
+---
+---
+---
+ARM Family 
+ARM chips are cheap to produce
+extremly power efficent
+sells license -> not manufactaring chips
+Cortex-A -> High Performance
+Cortex-P -> Fast Response --> doesn't include on slides
+Cortex-M -> Low power
+SecurCore -> Tamper resistant guess it magneticlly resistant?
+---
+---
+---
+Cortex-A  Family
+Highest Performance
+Reduced Instruction Set Computing (RISC)
+32bit-64bit and 16bit/32-bit instruction sets
+application processors 3rd party applications
+telefonda direkt core
+
+Cortex-R Family
+embedded real time processing
+signal processing, control applications
+telefonda anten wifi 
+
+Cortex-M Family
+Microcontroller oriented processors for MCU,
+ASSP(Application Specific System Processor)
+SoC applications
+telefonda flashi kontrol eden Microcontroller, touchscreen controller, power mgmnt, sensor hub
+genelde bluetoothdada kullanilir
+---
+---
+---
+Armv7-A and Armv8-A architecture (Armv7 32bit instruction set, mobile devices
+armv8 64bit instruction set focus on power efficent)
+backward compatible
+full os sport
+---
+---
+---
+Thumb2 vs Thumb
+thumb normalde 32 bit olan instruction sette 2^^32 den 2 milyar komut var
+toplasan 22bin kullaniriz 16bitlik olan instructionlarda kullanilsin
+alandan tasarruf yapalim demisler ikisini birlikte kullanan thumb2
+thumb2 ve thumb arasinda gecis yapabiliyor cortex a
+thumb ise sike sike kullaniliyor cortex m de
+
+---
+---
 ---

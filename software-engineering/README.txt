@@ -49,5 +49,10 @@ veya software diagram kullanilabilir
 Physical view aka deployment view -> donanim yazilim processorlara nasil dagitildi olarak modellenebilir
 system engineers pov'dur. physical layer and communaciton concern
 use cases view -> all of them requires use case and scenarios 
+
+Architectureal patterns:
+
+
+
 ---
 ---

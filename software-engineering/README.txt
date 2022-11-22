@@ -1,9 +1,9 @@
 ---
 ---
 
-Chapter 6 - System modeling 
+Chapter 5 - System modeling 
 
-UML diagram types
+UML DIAGRAM TYPES
 
 &&Activity diagrams, advanced version of flow chart
 Ex: Open word processor -> create file -> save file -> type document -> ...
@@ -21,9 +21,59 @@ Class diagrams,  you know this
 State diagrams,  you know this also the thing in automata theory
 
 
-Context models
+CONTEXT MODELS
 illustrate the operational context of a system
 System boundaries belirtir gibi?? external internal gibi
+
+
+INTERACTION MODELS:
+Use case diagrams and sequence diagrams may be
+used for interaction modeling
+
+Use case models
+ex: medical reseptions actor(stickman) -> transfer data (rls) -> patient record system(stickman)
+
+Sequence diagrams
+interaction between actors and the objects in the system
+
+STRUCTURAL MODELS:
+display organizaiton of a system in terms of the components
+
+class diagrams:
+An association is a link between classes that indicates
+that there is some relationship between these classes.
+
+Generalazition:
+manage complexitiy
+doctor -> hospital doctor
+doctor -> general practitioner
+
+Object class aggregation models
+An aggregation model shows how classes that are
+collections are composed of other classes
+
+BEHAVIORAL MODELS:
+dynamic behavior of a system it is executing
+stimuli :
+data:
+events:
+
+Data driven modeling
+data driven models show the sequence of actions
+
+Event driven modeling
+real time systems are often event-driven
+based on assumption that a system has a finite number of states
+
+State machine models
+These model the behaviour of the system in response to
+external and internal events
+
+Model driven enginerring
+????
+
+
+
 
 
 ---

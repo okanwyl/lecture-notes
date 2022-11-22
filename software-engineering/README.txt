@@ -1,5 +1,89 @@
 ---
 ---
+Chapter 3 - Agile Methods
+
+Rapid software development requirement
+agile specificication is prototype
+
+agile principles
+customer involvment
+incremental delivery The software is developed in increments with
+people not process 
+embrace changes
+maintain simplicity
+
+agile different than plan driven development
+waterfall model -- plan driven, incremental development
+iteration occurs within activities
+those are plan driven
+
+speficition is important choose -> plan-driven
+rapid feedback is available -> agile
+system is big? -> maybe plan driven is better
+lifetime is long -> requires more specificication
+is a lot of analysis required for complex system -> plan driven
+dev team distributed -> reqs design specificication
+
+extreme programming(it is agile)
+extreme programming practicies:
+incremental planning
+small releases
+simple design
+test first dev 
+refactoring
+
+
+---
+---
+Chapter 4 - Requirements engineering 
+2 types of req.
+User -> statements in natural language
+System -> structural document descriptions of the system functions
+
+
+functional and non functional req.
+functional req. -> May state what the system should not do.
+non-functional req. -> Often apply to the system as a whole rather than individual
+features or services
+domain req. -> constraits system domain of operation
+
+
+requirements imprecision
+problems arise when reqs. are not precisiyl stated.
+Ambiguous reqs may interpreted falsely by developers -> ex: "search" term
+
+
+non functional req. classifacitons
+product requirements
+  usability
+  efficency
+    Performance
+    space
+  dependability
+  security
+organisational req.
+  enviromental req
+  operational
+  development
+external req
+  regulatory
+  ethical
+  legislative
+    accounting
+    safety/security
+
+
+Requirements engineering processes
+- Requirements elicitation | analysis : Involves technical staff working with customers to find
+out about the application domain, the services that the
+system should provide and the system’s operational constraints.
+end-users, managers, domain expertises,
+- Requirements analysis :
+- Requirements validation;
+- Requirements management.
+
+---
+---
 
 Chapter 5 - System modeling 
 
@@ -7,6 +91,7 @@ UML DIAGRAM TYPES
 
 &&Activity diagrams, advanced version of flow chart
 Ex: Open word processor -> create file -> save file -> type document -> ...
+
 Use case diagrams summarize the details of the system's users
 Ex: 
 online shopping system // box // includes 4 circles

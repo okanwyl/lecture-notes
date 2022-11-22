@@ -1,5 +1,33 @@
 ---
 ---
+
+Chapter 6 - System modeling 
+
+UML diagram types
+
+&&Activity diagrams, advanced version of flow chart
+Ex: Open word processor -> create file -> save file -> type document -> ...
+Use case diagrams summarize the details of the system's users
+Ex: 
+online shopping system // box // includes 4 circles
+c1. view items linked to // customer,idendity provider, auth service
+c2. make purchase linked to // customer,idendity provider, auth service
+...
+
+Sequence diagrams, you know this 
+
+Class diagrams,  you know this
+
+State diagrams,  you know this also the thing in automata theory
+
+
+Context models
+illustrate the operational context of a system
+System boundaries belirtir gibi?? external internal gibi
+
+
+---
+---
 Chapter 6 - Architectureal Design
 
 early stage of the system design process.
@@ -115,6 +143,8 @@ enviorementten olusan eventlere gore hareket ediyorlar?
 language processing systems
 kullanincinin istekleri natural lang olarak veriliyor
 farkli bir dilde output
+
+ACID(Atomic, consistency, isolation, durability) database transaction
 
 ---
 ---

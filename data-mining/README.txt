@@ -72,4 +72,64 @@ ex:
 Ex: To study the characteristics of a software products whose sales increased by a %10 in the last year, data can be
 collected by SQL query
 
+# Mining frequent patterns, Associations and Correlations
+- Frequent patterns General assumption ex: PC vendor that customers buy frequently appear together in a transactional data set
+PC -> digital camera -> memory card is a frequent sequential pattern
+
+- Association analysis: 
+Ex: Electronics transactional database
+buys(X, "computer") => buys(X, "software") [support=1%, confidence=50%]
+where x representing customer 
+confidence meaning: %50 means that if customer buys a computer there is a chance of %50 that she will buy software
+as well.
+support meaning: %1 of all of the transactions under analysis showed that computer and software purchased together
+that was single demansional if we use ^ icon on the left query that becomes multidimensional association rule
+
+
+# Classifaciton and Prediction
+- Decision trees, neural network, regression analysis 
+Ex: IF-THEN rules
+age(X, "youth") AND income(X ,"high") => class(X, "A")
+age(X, "youth") AND income(X ,"low") => class(X, "B")
+age(X, "middle_aged") => class(X, "C")
+age(X, "senior") => class(X, "C")
+
+# Cluster anaylsis
+- Unlike classification and prediction which analyze class-labeled data objects, clustering analyzes data objects
+without consulting known a class label.
+
+# Outlier analysis
+- A database may contain data objects that do not comply with general behaviour or model of the data.
+- Most data mining methods discard outliers as noise or expections
+- Rare case events can be more intersting than the more regularly occuring ones referred that as a outlier mining
+Ex: fraud detection
+
+# Evolution analysis
+- models regularities or trends for objects whose behavior changes over time.
+Ex: major stock market(time-series)
+
+
+# Classification of Data Mining Systems @TODO
+
+# Integration of a Data Mining System witha Database or Data Warehouse System
+- No coupling: DM(Data-mining) system will not utilize any function of a DB or DW system.
+- Loose coupling: DM(Data-mining) system will utilize function of a DB or DW system.
+- Semitight coupling: Semitight coupling means that besides linking a DM system to
+a DB/DW system, efficient implementations of a few essential data mining primitives 
+(identified by the analysis of frequently encountered data mining functions) 
+can be provided in the DB/DW system. These primitives can include sorting, 
+indexing, aggregation, histogram analysis, multiway join, 
+and precomputation of some essential statistical measures, 
+such as sum, count, max, min, standard deviation, and
+so on.
+- Tight coupling : smoothly integrated
+
+
+# Integration of a Data Mining System witha Database or Data Warehouse System
+
+
+
+
 ## End of CHAPTER 1
+
+

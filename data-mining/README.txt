@@ -1,3 +1,4 @@
+## Start of CHAPTER 1
 # What is data mining?
 
 - Simply stated, data mining refers to extracting or "mining" knowledge from large amounts of data (sand gold relation)
@@ -48,3 +49,27 @@ ex:
 - Spatiotemperal databases are same but changes in time
 
 # Text databases and Multimedia Databases
+- Text Databases are stores Long sequence of words.
+- Multimedia databases you know that 
+
+# Heterogeneous Databases and Legacy Databases
+- Heterogeneous database consists a  set of interconnected, autonommous component databases.
+- That's legacy?
+
+# Data Streams
+- Where data flow in and out of an observation platform or window dynamically.
+- Huge or possibly infinite volume, dynamically changing, flowing in and out in a fixed order
+- Often real time
+-   
+
+# Data Mining Functionalities
+- Data mining tasks can be classified into two catagorioes : descriptive, predictive
+
+
+# Concept/Class Description : Characterization and Discrimination
+
+- Data characterization is a summarization of the general charecteristics or features of a target class of data.
+Ex: To study the characteristics of a software products whose sales increased by a %10 in the last year, data can be
+collected by SQL query
+
+## End of CHAPTER 1

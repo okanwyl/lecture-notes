@@ -26,8 +26,36 @@ converts information into knowledge for a specific purpose
 There is a graph also knowledge grasps reasons and that becomesa understanding
 understanding grasps principles and becomes wisdom
 
-Data
+Data:
 - Elementary description of things, events, activities and transactions that are recorded, classified
 and stored but not organized to convey any specific meaning
+Information:
+- Data organized and they have meaning and value to the recipient
+- Data that has been put into a meaningful and useful context
+
+Knowledge
+- Information that has been organized and processed to convey understandings, experience
+and expertise as they can be applied to a current problem or activity
+
+Wisdom
+- The knowledge and experience needed to make sensible decisions and judgements or the good sense
+shown by the decisions and judgements made acculamated knowledge of life in a particular sphere
+of activity that has been gained through experience - for future use
+
+
+Information Pyramid for those titles
+Wisdom (Future)
+Ex: stop car
+
+Knowledge (Past)
+Ex: the traffic light i am driving towards has turned red
+
+Information (Past)
+Ex: South facing traffic light on corner of pitt and george
+streets has turned red
+
+Data (Past)
+red
+
 
 ***END OF CH1 classifcation of the information systems***

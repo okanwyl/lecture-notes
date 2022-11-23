@@ -57,5 +57,25 @@ streets has turned red
 Data (Past)
 red
 
+Benefits of IS & MIS
+
+- Supports core competency(yetkinlik)
+- Enhances distribution channel management
+- Increases production processes
+- Allows a company flexibiliy in its output level
+- Expanded E-Businnes
+- Forces stability
+- Improved B2B business
+
+What is E-Businnes
+
+B2C : Selling retail and end-products to consumers with tag prices
+B2B : Selling at the wholesale level to other businesses price is negotiated
+E-Businness : Using internet technologies to conduct any level of business
+
+What do management do?
+Decisions, organizing, planning, control, bugdeting, interpersonal relations, information flow,
+reporting to an upper level, escalation of problems
+
 
 ***END OF CH1 classifcation of the information systems***

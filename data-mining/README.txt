@@ -11,3 +11,40 @@
 6. Pattern evaluation (identify truly interesting patterns)
 7. Knowledge presentation (visualize)
 
+- 1 to 4 is different forms of data preprocessing
+- Standart architecture of typical data mining system consist components are
+1. database
+2. data warehouse
+3. world wide web
+4. other info repos
+5. database
+6. data mining engine
+7. pattern evaluation
+8. user interface
+9. knowledege base
+
+# Data Warehouses (work on that?) @TODO
+-OLAP qubic (drill up drill down @TODO)
+ex: 
+-> vancouver, attributes address:toronto, new york, chigaco (top face)
+-> front face attributes time(quarter): q1,q2,q3,q4
+
+# Transactional Databases
+- each transaction added to the database
+
+
+# Object-relational Databases
+- object oriented wrapper you know that
+
+# Temporal Databases, Sequence Databases, and Time-Series Databases
+- Temporal database stores relational data that include time-releated attributes
+- Sequence Database stores sequence of ordered events
+- Time-series Databases stores sequences of values or events obtained over repeated measurements of time(hours,daily,weekly)
+
+
+# Spatial Databases and Spatiotemperal Databases
+- Spatial database contain spatial(uzamsal)-related information such as maps geography
+- Spatial data may be presented as a raster format(just a image format like png jpg but in a matrix)
+- Spatiotemperal databases are same but changes in time
+
+# Text databases and Multimedia Databases

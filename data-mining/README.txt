@@ -133,3 +133,19 @@ so on.
 ## End of CHAPTER 1
 
 
+## Start of CHAPTER 2 text book 3
+
+Data: raw, atomic, mostly operational
+Information: processed, re-organized, grouped
+Knowledge: patterns, models, findings 'behind' information
+Wisdom: perfect orchestration of knowledge
+
+Data warehouse is subject-oriented, integrated, time-variant and nonvolatile collection of data
+
+Subject-oriented: major subjects -> customer supplier product and sales
+Integrated: constructed by integrating multiple heterogeneous sources
+time-variant: element of time provide information from a historical perspective
+Nonvolatile: data warehouse doesn't contain data transformer applications
+
+## End of CHAPTER 2 text book 3
+

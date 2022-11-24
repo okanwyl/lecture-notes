@@ -9,3 +9,13 @@ a.
 based on some interestingness measures
 6. Knowledge presentation : where visualization and knowledege representatiton techniques are used to present
 the mined knowledge to the user.
+
+q. How is a data warehouse is different from a database?
+a. 
+
+Data warehouse is a repository of information collected from multiple sources, over a history of time stored under
+a unified schema, and used for data analysis and decision support, wheras a database is a collection of interrelated
+data that represents the current status of the stored data.
+
+
+

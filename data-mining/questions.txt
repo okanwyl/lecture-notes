@@ -1,0 +1,11 @@
+***CHAPTER 1***
+q. Describe the steps involved in data mining when viewed as a process of knowledge discovery.
+a. 
+1. Data cleaning : a process that removes and transforms noise and inconsistent data
+2. Data integration : where multiple data sources may be combined
+3. Data selection : Where data relevant to the analysis task are retrieved from the database.
+4. Data transformation : where data are transformed or consolidated into forms appropriate for mining
+5. Pattern evaluation : a process that identifies the truly interesting pattern representing knowledge 
+based on some interestingness measures
+6. Knowledge presentation : where visualization and knowledege representatiton techniques are used to present
+the mined knowledge to the user.

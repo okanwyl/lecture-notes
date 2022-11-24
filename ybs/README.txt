@@ -29,6 +29,7 @@ understanding grasps principles and becomes wisdom
 Data:
 - Elementary description of things, events, activities and transactions that are recorded, classified
 and stored but not organized to convey any specific meaning
+
 Information:
 - Data organized and they have meaning and value to the recipient
 - Data that has been put into a meaningful and useful context
@@ -77,5 +78,109 @@ What do management do?
 Decisions, organizing, planning, control, bugdeting, interpersonal relations, information flow,
 reporting to an upper level, escalation of problems
 
+Leading Businnes Trends //@TODO
 
+Levels of Managerial Decision Making
+***This is a pyramid***
+
+Strategic management (unstructured): Executives and directors
+Tactical  management (Semistructured): Businnes unit managers and self directed teams
+Operational  management (Structured): Operating managers
+
+***This is a table***
+
+HEADERS
+Decision level | Description | Example | Type of information
+
+Strategic(Policy) | competetive advantage, restructuring, high cost, long term | new product will change the sector
+| external events, rivals, sales, costs, quality, trends
+
+
+
+Tactical(management) | improving operations without restructuring the company, low cost, mid term | new tools/software to cut costs or improve efficiency
+| expenses schedules, sales, models, forecasts, production summary
+
+
+Operations(execution) | Day-to-day actions to keep company functioning, short-term, no dev cost| scheduling employess ordering supplies
+| operational transactions
+
+// @TODO don't forget to look up for example
+
+Strategic Decisions & Organizations
+
+Strengths
+- Source of strength
+- Value of strength
+- How can it be developed?
+- What could undermine it?
+- Development costs
+- Additional Benefits
+(Opportunities)
+
+Weaknesses
+- Effect on company
+- Possible solutions
+- Cost of solution
+- Result and cost of leaving as is
+- Possible threat areas
+
+(Threats)
+
+***SWOT***
+
+Information Systems
+An information system collects, processes, stores,
+analyzes, and disseminates information for software
+applications.
+
+We can determine a categorization
+- By organization 
+1. Depertmental IS -> e.g Accounting software
+2. Enterprise-Wide IS -> e.g E-mail system
+3. Inter-Organizational IS -> e.g Supply chain management
+
+Information systems connected by networks 
+
+Classification by support function
+Support Function
+***THIS IS A PYRAMID***
+Top managers (Executive Support System)
+Middle managers (MIS, DSS, ISS) Management, Decision, Intelligent
+Data workers (Knowledge management system, office automation system)
+Operational managers (Transaction processing system)
+
+Transaction processing system(TPS)
+- TPS automatives routine and repetetive tasks critical operations
+- Data collected from this operation supports MIS and DSS employed by Middle Management
+- Primary purpose perform transactions and collect data
+
+Management information system(MIS)
+organize and summarize, displays information supports
+routine decision making in the functional areas
+
+Decision support system(DSS)
+support complex non-routine decisions,
+primary purposes to process data into information
+dss generally employed by tactical level management
+what if data mining, queries 
+
+Intelligent support system(ISS)
+these systems perform intelligent problem solving(AI)
+
+
+Executive Support/Information  system(EIS/ESS)
+Executive or enterprise information system originally were implemented to support
+senior management
+supports strategic activities 
+
+
+Office automation systems(OAS)
+electronic communication systems email instant messaging, intranet portlas, word processing systems
+spreadsheets, fax automation, document management systems
+
+
+Knowledge managemenet systems(KMS)
+financal and marketing analystts between top and middle management
+finding or developing new knowledge
 ***END OF CH1 classifcation of the information systems***
+

@@ -135,10 +135,15 @@ so on.
 
 ## Start of CHAPTER 2 text book 3
 
-Data: raw, atomic, mostly operational
-Information: processed, re-organized, grouped
-Knowledge: patterns, models, findings 'behind' information
+Data: raw, atomic, mostly operational veri hamdir o sadece vardir ve varligin otesinde bir anlami yoktur Herhangi
+bir formda olabilir.
+Information: processed, re-organized, grouped, Iliskisel baglantilarla anlan kazandirilmis veri. Bu anlam yarali olabilir ama olmak zorunda degildir. Bilgisayar dilinde bir iliskisel veritabani icerisinde saklanan bilgilerden
+information yapabiliriz.
+Knowledge: patterns, models, findings 'behind' information informationlarin uygun bir koleksiyonu, information arkasindaki patternlar model ve buluslardir
+Understanding: Bilissel ve analitik bir surec onceden duzenlenen bilgiden bilgi almak ve ozu sentezleyerek yeni bilgiye ulasma sureci
 Wisdom: perfect orchestration of knowledge
+
+
 
 Data warehouse is subject-oriented, integrated, time-variant and nonvolatile collection of data
 
@@ -146,6 +151,22 @@ Subject-oriented: major subjects -> customer supplier product and sales
 Integrated: constructed by integrating multiple heterogeneous sources
 time-variant: element of time provide information from a historical perspective
 Nonvolatile: data warehouse doesn't contain data transformer applications
+
+
+roll-up: olusturulan hiyerarsi uzerinde yukari dogru cikilir boyut azaltimi yapilir
+drill-down: derinleme roll-up isleminin tersidir veri detaylandirilir, yeni boyutlar olusturulabilir
+slice: tek bir dimension uzeirnden sorgu cekmek
+dice: birden fazla dimension varsa dice olur
+pivot: transpozunu almak satir sutun exchange
+
+operasyonel alanda kullanilan keyler veri ambarlarinda fact olarak gecmektedir. musteri no, supply araci
+gibi yapilar veri ambari icin birer facttir
+sube numarasi fact, subenin adresi olan yer dimensiondur
+
+
+data mart:
+
+
 
 ## End of CHAPTER 2 text book 3
 

@@ -236,10 +236,13 @@ alternatives for processing unit
 ASIC: 
 2 cat: fully custom, semi custom
 very fast, not flexible
+vhdl
 
 CPLD: 
 PAL ve FPGA arasinda bir yer
-contains non-volatile memory
+building block is a macrocell
+macrocell: programmable logic devices, programmable array logic
+contains non-volatile memory external ROM not required
 fast and somewhat flexible
 
 FPGA: 
@@ -252,6 +255,8 @@ DSP
 Digital signal processor
 yogun hesaplama?
 i/o icin tasarlanmis
+
+may include:
 quadrature decoders
 PWM
 Serial communication
@@ -260,6 +265,8 @@ Serial communication
 PLC
 programmable logic controller
 progrrammed graphically?
+tens of thousand i/o
+they are biggggggggg
 
 
 

@@ -164,7 +164,12 @@ gibi yapilar veri ambari icin birer facttir
 sube numarasi fact, subenin adresi olan yer dimensiondur
 
 
-data mart:
+data mart: veri ambarin alt kumeleridir. veri ambari genelleyici iken data martlar sadece belli bir noktaya odaklanir.
+data martlar: star schema
+
+informationdan knowledge uretirken datamart kullanilir.
+
+data *selection -> target data *preprocessing -> preproceesed data * data mining -> patterns *interpretattion evaluation -> knowledge
 
 
 

@@ -157,3 +157,144 @@ thumb ise sike sike kullaniliyor cortex m de
 ---
 ---
 ---
+Common characteristics of embedded systems
+
+CPS/ES must be dependeble. -> cevresindeki islevlere insanlara zarar vermeden kesintisiz
+yapabiliyorsa dependeble
+
+reliability R(t)= ilk calismaya basladigi zamandan itibaren ne zaman task atansa yapiyor t=0 reliability tamdir? ne dedin hoca amk ne demek bu
+
+reliability dusurebilecek caseler-> yetersiz secilmis bir hardware, hardware failaure, software bug
+
+security -> identification eklenebilir, network kullaniliyorsa secure network connection eklenebilir,
+storage integrity and confidentiality
+
+maintanibility: bir ariza olustu sistemde tamir edilip calismaya basladigi surece denir?
+
+availability: u know
+
+safety: 
+
+efficency : 
+code size efficent 
+run-time efficent
+weight efficent
+cost efficent
+energy efficent
+
+---
+---
+---
+
+hardware in a loop
+physical -> sensors -> A/D converter sample and hold -> information processing -> display D/a converter -> actutator
+
+actuator -> degisik componentler
+
+---
+---
+---
+CCD
+based on charge transfer to the next pixel (legacy)
+pahali, bellek ihtiyaci az
+based on:optic
+tech:special
+no logic on chip
+access:serial
+size:limited
+power cons:low
+
+CMOS image sensors
+pixel area uzerinde dusen isiklar ile bir boolean space yaratilip hesaplama yapar
+based on:vlsi
+tech:standard
+logic on chip
+access:random
+size:can be large
+power cons:larger
+---
+---
+---
+
+sensors generate signals
+filtreleme yapmamiz lazim noiseu
+Dt -> dv
+dt analog
+dv dijital
+
+neredeyse tum analog donusturucu devrelerinde sample and hold devresi var
+sample and hold ise bildigimiz kalibrasyon. orn sensore sabit 3v yollayip o noktayi baz alir sonraki
+olcumlerde farkini alarak islem yapar
+
+
+aliasing: kotu ornekleme parametresi secilmesi dalgali
+---
+---
+---
+alternatives for processing unit
+
+ASIC: 
+2 cat: fully custom, semi custom
+very fast, not flexible
+
+CPLD: 
+PAL ve FPGA arasinda bir yer
+contains non-volatile memory
+fast and somewhat flexible
+
+FPGA: 
+field of programmable gate array
+large interconnection matrix logic gates, RAM
+May have analogue capability A/D D/A
+VHDL uses
+
+DSP
+Digital signal processor
+yogun hesaplama?
+i/o icin tasarlanmis
+quadrature decoders
+PWM
+Serial communication
+
+
+PLC
+programmable logic controller
+progrrammed graphically?
+
+
+
+uP
+math icin perfect
+runs an os
+significant memory
+may be single-board
+not able to directly interface
+
+
+
+---
+---
+---
+Armv7-A
+mmu memormy management support
+highest performance at low power
+multi-tasking OS
+TrustZone for a safe extensible system
+
+Armv7-R
+Protected memory
+low latency and predictability for real-time needs
+tightly coupled memories for fast deterministic access
+
+
+Armv7-M, ARMv6-M
+lowest gate count entry point
+
+---
+---
+---
+MSP430
+ultra low-power
+16 bit RISC cpu
+large register file
+

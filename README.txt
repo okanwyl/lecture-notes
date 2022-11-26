@@ -1,1 +1,1 @@
-notes on senior year lectures
+Notes on senior year lectures

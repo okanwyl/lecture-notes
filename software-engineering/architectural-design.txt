@@ -1,0 +1,9 @@
+1. Is there a generic application architecture that can act as a template for the system that is being designed?
+2. How will the system be distributed across a number of cores or processors?
+3. What architectural patterns or styles might be used?
+4. What will be the fundamental approach used to structure the system?
+5. How will the structural components in the system be decomposed into subcomponents?
+6. What strategy will be used to control the operation of the components in the system?
+7. What architectural organization is best for delivering the non-functional requirements of the system?
+8. How will the architectural design be evaluated?
+9. How should the architecture of the system be documented?

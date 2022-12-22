@@ -32,9 +32,4 @@ Name: Robodog
 Purpose: A robot in the form of a dog that follows its owner
 Inputs: charge input, Power button, Touchscreen 
 Output: Speakers, Touchscreen
-Functions: Uses camera; user-selectable menus on the touchscreen; always displays current charge, walk capacity and
-owner status
-Performance: Updates screen within 0.25 seconds and it have capability of walking in 5kmh
-Manufactiring cost: 300 turkish liras
-power: 35000 mWh based on 5V
-physical size and weight: No more than 30cmx80cm, 8kg
+Functions: k

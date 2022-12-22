@@ -1,0 +1,27 @@
+My design process uses top-down design model.
+
+First step: Requirements
+
+The major objectives of the design are
+cost
+performance
+power consumption
+
+initial list
+
+functionality: This system is designed for robot dogs that follows it's owner, not every human being. 
+The system should be able to follow the owner constantly and give feedback when it is not possible(power status,
+distance)
+
+user interface: The touchscreen should have at least 1280x720 resolution for readibility purposes. The device
+should be controlled by touchscreen. The system's interface should have 
+
+
+
+Form:
+
+Name: Robodog
+Purpose: Follows the owner? -
+Inputs: A/C charge input, Power button, Touchscreen 
+Output: Speakers, Touchscreen
+Functions: k

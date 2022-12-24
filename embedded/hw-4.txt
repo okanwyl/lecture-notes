@@ -11,10 +11,10 @@ initial list
 
 functionality: This system is designed for robot dogs that follows it's owner, not every human being. 
 The system should be able to follow the owner constantly and give feedback when it is not possible(power status,
-distance). Also, owner should be able to change the owner status to another person
+distance). Also, owner should be able to change the owner status to another person.
 
-user interface: The touchscreen should have at least 1280x720 resolution for readibility purposes. The device
-should be controlled by touchscreen. The system's interface should have understanable UX.
+user interface: The display should have at least 1280x720 resolution for readibility purposes. The device's settings
+should be controlled by smartphone. The display's interface should have understanable UX.
 
 performance: The user interface should perform smoothly. Upon power-up, a display should take no more than
 one second to appear, and the system should be able to verify it's owner lower than 5 seconds. 
@@ -30,11 +30,21 @@ Form:
 
 Name: Robodog
 Purpose: A robot in the form of a dog that follows its owner
-Inputs: charge input, Power button, Touchscreen 
-Output: Speakers, Touchscreen
-Functions: Uses camera; user-selectable menus on the touchscreen; always displays current charge, walk capacity and
-owner status
-Performance: Updates screen within 0.25 seconds and it have capability of walking in 5kmh
+Inputs: charge input, Power button, hanger sensor, Bluetooth receiver, Distance sensors
+Output: Speakers, Display
+Functions: Uses distance sensors for obstacle; always displays current charge, walk capacity and
+owner status, can give feedback with speakers, follows owner, be able to carry bag
+Performance: Updates screen within 0.25 seconds and it have capability of walking in 5kmh, be able to carry 5kg bag
 Manufactiring cost: 300 turkish liras
 power: 35000 mWh based on 5V
 physical size and weight: No more than 30cmx80cm, 8kg
+
+
+Specificiation 
+- Data received from bluetooth receiver
+- Data received from distance sensor
+- Bluetooth signal is clean
+- User interface(smartphone)
+- System has enough charge capacity for running
+- Background actions required to keep the system running, such as operating sensors and walking componoents, bluetooth connection
+checker

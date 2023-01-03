@@ -305,3 +305,67 @@ ultra low-power
 16 bit RISC cpu
 large register file
 
+
+-- realtime?
+dsp provides realtime
+real time formula y(n) = E 99 dan 0=(a(k)x(n-k)
+
+use dsp if cost saving smaller size, low power consumption, many high freq signals in real time
+use gpp requrired large memory, advancing operating systems
+
+typical dsp alghoritms: wtf is that -- ch4 information processing dsp?
+dsp optimized for multiplication and addition operation in one machine cycle
+
+
+high precision wide dynamic range, high signal to noise audio ease of use -> floating point processor? FPU
+but it's bad for high power consumption can be more expensive can be slow for fixed point
+
+asic specialized for application? ->  bad for dev cycle
+
+-- programmable logic  PLD
+
+
+large number of gates and flip flops
+3 type -> SPLD simple plds -> earliest type of array logic used for fixed functiosn
+cpld -> complex plds -> multiple spld arrays 
+fpld -> field of programmable gate array more flexiable than cpld with much larger capacity
+
+advantages of pld -> lower req, less board, simpler testing
+
+all plds contains arrays. Two important one SPLDS are PALS(programmable array logic) and 
+GALS(generic array logic) a typical matrix of conductors
+one time programmable PALS
+gal is reprogrammable
+
+
+macrocells-> pal gal mixed outputs with or gate
+
+information processing pld look up
+
+
+
+--- 
+
+3 dimesional 8 cubic, 64 bit,
+read write, hit or miss
+rams -> static ram, dynamic ram
+sram is faster, but more complext and require more space
+asynchronous sram -> everything is low
+dram-> simple and cost effective
+rom -> system initializon and not removed
+prom -> programmable rom
+eprom -> can be erased prom
+eeprom -> electric pulses remove and program
+flash memory -> usb flash drive -> one drawback is once a bit set to 1 need to erase entire block memory
+
+simm -> 32 bit data path
+dimm -> 64 bit data path
+fifo memory -> first in first out shift registers
+lifo memory -> last in first out stack -> temp
+
+
+---
+programming 
+c-> disadvantages > limited or no direct access to core registers
+. no direct control over stack
+. no dirct control instructions

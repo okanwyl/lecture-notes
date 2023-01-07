@@ -1,0 +1,44 @@
+Two distinct goal:
+1. To demonstrate to the developer and the customer that software meets requirements
+2.To discover situations in which the behavior of the software is incorrect, undesirable, 
+or does not conform its specification
+
+
+# Validation Testing
+Static practice verifying the specific requiremnets
+expected usage of system
+
+# Defect testing
+expose defects
+
+
+testing cna only show the presence of errors, not their obsence
+
+verification and validaton ultimae goal is establish confidence that software system
+is fit for purpose
+
+
+required confidence depends on the system's purpose
+
+1. Software purpose: more critical needs more confidence
+2. user exceptations : first init maybe low but customer will be expect more quality in future
+3. Marketing enviorment: ? wtf
+
+
+
+verification is static
+validation is dynamic
+
+
+three stages of testing:
+1. development testing
+2. release testing
+3. user testing
+
+# Development testing
+might be include static code analysis, data flow analysis, metrics analysis, peer code reviews,
+unit testing, code covarge analysis, tracebility,
+static code analysis -> debugging with eyes and needs project structure
+data flow analysis -> programs control flow graph used to determine those parts of a programs
+to which particular value assigned to a variable might propagate used by compilers
+peer code reviews -> developers analyze teammate code

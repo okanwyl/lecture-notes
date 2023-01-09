@@ -105,7 +105,7 @@ example: testing guidelines sequences
 3. test with zero length
 4. first middle last element sequences
 
-## FINISH unit testing?
+## FINISH unit testing 
 
 component testing -> individual units composed and focused on interfaces
 - composite objects accesed via interfaces so test that?
@@ -130,6 +130,7 @@ their ranges
 4. stress test use at message passing systems
 5. shared memory try to call different order
 ## stress testing -> load test-alike extreme traffic example
+## example one service uses queue underneath -> try to overflow it so this testing becomes hard
 
 system testing -> system tested as a whole focused on component interactions
 ## don't care the undrlying code, evulates the behavior of the program, after code complete
@@ -175,3 +176,29 @@ inspection have pre-conditions
 - error checklist
 - management accept that inspections increase costs in early software process
 - management shouldn't use inspections for who is making mistake
+
+
+inspections roles
+author -> programmer designer  responsible for producing the program
+inspector ->  error finder
+reader -> inspection meeting reports code?
+scribe -> recorder of the meeting
+chairman -> report forwarder
+chief moderator -> responsible for action taking
+
+// @TODO
+inspections checklist
+- wtf ? 
+
+
+automated static analysis -> potential software source code checkers that find potential errors
+ex -> sonarlint, 
+
+stages of static analysis
+
+control flow analysis -> if else unreachable code,
+data use analysis -> detects uninitialized, used constants variables,
+interface analysis -> consistency of routien and procedure
+information flow analysis -> does not detect anomalies itself, dependencies of output
+variables
+path analysis -> identifies paths through the program and sets out the statements (example repository like)

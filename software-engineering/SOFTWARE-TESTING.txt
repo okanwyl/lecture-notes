@@ -129,7 +129,49 @@ their ranges
 3. design tests which cause the componet to fail
 4. stress test use at message passing systems
 5. shared memory try to call different order
+## stress testing -> load test-alike extreme traffic example
 
 system testing -> system tested as a whole focused on component interactions
 ## don't care the undrlying code, evulates the behavior of the program, after code complete
 
+
+
+regression testing -> testing the system to check that changes have not broken previously
+working code
+
+release testing -> black-box testing system // system-specificication --> it is a system testing
+also a validation testing
+
+
+requirement based test -> examine requiremnt and write test for that
+example -> mhc-pms requirements :
+if a patient has a known allergic reaction mediciation should be warned if potential alergic presprection
+if warning message ignored, should be input for that implies why
+
+
+performance testing->  maybe part of release testing
+stress test is a form of performance testing
+
+
+user testing  -> customer testing essential
+
+
+types of user testing
+alpha: developers and users work together
+beta: made available to the users with system developers
+acceptance: customers test product is ready or not
+
+
+
+program inspections
+- formalised approach to document reviews
+- intended explicitly for defect detection not correction
+- defects may be logical, erronneous condition uninitialized variable
+
+inspection have pre-conditions
+- precise specificication must be available
+- team members knows organizaiton standards
+- sytnax should be correct and system reporesentations must be available
+- error checklist
+- management accept that inspections increase costs in early software process
+- management shouldn't use inspections for who is making mistake

@@ -1,44 +1,65 @@
-Two distinct goal:
-1. To demonstrate to the developer and the customer that software meets requirements
-2.To discover situations in which the behavior of the software is incorrect, undesirable, 
-or does not conform its specification
+program testing : testing with artifitical data
+
+can reveal the presence of errors not their absence
+
+testing is a more general v&v which also includes static validation techniques
+
+static techniques example-> handmade reviews generally early stage
+dynamic testing -> funcitonal, non-functionaL-> unit testing integration testing system testing etc. 
+later stage
 
 
-# Validation Testing
-Static practice verifying the specific requiremnets
-expected usage of system
-
-# Defect testing
-expose defects
+program testing goals
 
 
-testing cna only show the presence of errors, not their obsence
+diffrences of validation testing and defect testing
 
-verification and validaton ultimae goal is establish confidence that software system
-is fit for purpose
+validaton testing purpose -> requirement analysis results should be tested
+if the software is generic all over of the system should be tested
 
+defect testing purpose -> which behavior is incorrect
 
-required confidence depends on the system's purpose
+goals of validation testing and defect testing
 
-1. Software purpose: more critical needs more confidence
-2. user exceptations : first init maybe low but customer will be expect more quality in future
-3. Marketing enviorment: ? wtf
+validation test -> a successful test shows that the system operates as intended
 
-
-
-verification is static
-validation is dynamic
+defect test -> a successful test makes the system perform incorrectly so that exposes a defect in the
+system
 
 
-three stages of testing:
-1. development testing
-2. release testing
-3. user testing
+verification and validation
 
-# Development testing
-might be include static code analysis, data flow analysis, metrics analysis, peer code reviews,
-unit testing, code covarge analysis, tracebility,
-static code analysis -> debugging with eyes and needs project structure
-data flow analysis -> programs control flow graph used to determine those parts of a programs
-to which particular value assigned to a variable might propagate used by compilers
-peer code reviews -> developers analyze teammate code
+verification -> are we building product right?
+validation -> are we building right product?
+
+aim of the v&v establish confidence that the system is 'fit for purpose'
+diffrences of purposes
+1. software purpose -> level of confidence depends on organization
+2. user expectations -> users may have low expectations of certain kind of software
+3. marketing enviorment -> market early maybe exposes defects.
+
+#verification techniques -> peer reviews, walkthrough, inspections really?
+
+
+
+inspections 
+
+inspections and testing are complementary and not opposing verification techniques
+both shoudl be used V&V
+
+software inspections : analysis of the static system representation of discover problems maybe tool based
+# Maybe this called as static verification
+# static verification -> bad patterns exmp nullability, code conventions
+needs people examples -> requirements design, configuration data, test data
+
+
+
+
+
+advantages: 
+1. errors can mask other errors so don't need to be concerned with interactions betweeen 
+errors
+2. incomplete parts of a system can be inspected without additional cost
+# 3. WTF? As well as searching for program defects, an inspection can also consider broader quality attributes 
+of a program, such as compliance with standards, portability and maintainability. 
+

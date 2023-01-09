@@ -131,7 +131,8 @@ their ranges
 5. shared memory try to call different order
 ## stress testing -> load test-alike extreme traffic example
 ## example one service uses queue underneath -> try to overflow it so this testing becomes hard
-
+## generally type checker languages such as java, c# generally provides compile time handling
+for this circumcitiances
 system testing -> system tested as a whole focused on component interactions
 ## don't care the undrlying code, evulates the behavior of the program, after code complete
 
@@ -143,6 +144,7 @@ working code
 release testing -> black-box testing system // system-specificication --> it is a system testing
 also a validation testing
 
+sceneraio testing -> relesae testing techniques create a story for the requirement
 
 requirement based test -> examine requiremnt and write test for that
 example -> mhc-pms requirements :

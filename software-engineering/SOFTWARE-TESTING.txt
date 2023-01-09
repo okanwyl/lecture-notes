@@ -40,26 +40,96 @@ diffrences of purposes
 
 #verification techniques -> peer reviews, walkthrough, inspections really?
 
-
-
-inspections 
+#inspections 
 
 inspections and testing are complementary and not opposing verification techniques
-both shoudl be used V&V
+both should be used V&V
+inspections cannot check non-functional characteristics such as  performance, usability
 
 software inspections : analysis of the static system representation of discover problems maybe tool based
-# Maybe this called as static verification
-# static verification -> bad patterns exmp nullability, code conventions
+## Maybe this called as static verification
+## static verification -> bad patterns exmp nullability, code conventions
 needs people examples -> requirements design, configuration data, test data
-
-
-
-
 
 advantages: 
 1. errors can mask other errors so don't need to be concerned with interactions betweeen 
 errors
 2. incomplete parts of a system can be inspected without additional cost
-# 3. WTF? As well as searching for program defects, an inspection can also consider broader quality attributes 
+## 3. WTF? As well as searching for program defects, an inspection can also consider broader quality attributes 
 of a program, such as compliance with standards, portability and maintainability. 
+
+#Stages of testing
+
+1. development testing -> where the system is tested during development to discover bugs and defects
+2. release testing -> where a seperate testing team complete version testing before release
+3. user testing -> potential users tests
+
+
+#Development testing:
+
+unit testing -> 
+individual program units or object classes are tested
+- individual component tested in isolation
+- defect testing process
+
+these are under unit testing header
+
+object class testing
+- complete test coverage of a class involves
+- inheritance makes harder
+
+automated testing
+- unit test should be automated
+
+
+testing strategies
+1. partition testing: 
+- inputs have common characteristics and should be processed in the same
+way
+- choose tests from each of these groups
+- each of the tested classes is an equivalance partition or domain where the program
+behaves in a equivalent way for each class member
+- test cases should be chosen from each partition
+2. guideline-based testing
+- experience of developers?
+- use testing guidelines
+example: general ones
+1. choose inputs that force system to errors
+2. repeat the same input or series of inputs numerous times
+3. force invalud outputs to be generated
+4. force computation results to be too large or too small
+
+example: testing guidelines sequences
+1. test with sequences which have only a single value
+2. use sequences different sizes
+3. test with zero length
+4. first middle last element sequences
+
+## FINISH unit testing?
+
+component testing -> individual units composed and focused on interfaces
+- composite objects accesed via interfaces so test that?
+# think that as a module testing
+
+interface testing
+firstly interface types -> 
+parameter interfaces : data passed one method to another one
+shared memory interfaces: block memory shared between procdeures or functions
+procedural interfaces -> subsystem one
+
+interface errors
+1. interface misuse -> ex parameters inorder, wrong interface call
+2. interface misunderstanding -> dev assumptions are wrong which are incorret calls
+3. timing errors -> operation operate different speeds ex-> async await
+
+interface testing:
+1. design tests so the paramters to a called procdeure at the extreme ends of
+their ranges
+2. always test pointer parameters with null pointers
+3. design tests which cause the componet to fail
+4. stress test use at message passing systems
+5. shared memory try to call different order
+
+system testing -> system tested as a whole focused on component interactions
+## don't care the undrlying code, evulates the behavior of the program, after code complete
 

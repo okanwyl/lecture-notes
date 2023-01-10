@@ -1,0 +1,55 @@
+Software change is inevitable
+-  new reqs are coming
+- the businness changes
+- errors must be repaired
+- new computers and equipment added to the system
+- the performance of reliablity
+
+evolution -> evolving as new requirement proposed and implemented in system.
+servicing -> the software remains but changes made are those required  to keep it operational
+phase-out -> depracted no changes
+
+#evolution processes depends on
+1.the type of software,
+2.the development processes that used
+3.the skills and experience of the people involved
+
+EXAMPLE GRAPH:
+intial development -> evolution-itself too-> servicing-itself too -> phase-out
+
+change idenfticition and evolution contionues throughtout the system life
+
+
+software evolution processes
+
+change request-> impact analysis -> release planning -> change implementation -> system release
+
+change implementation 
+proposed changes -> requirement analysis -> requirement updating -> software development
+
+urgent changes may be implemented without going to all stages of the software enginerring process
+
+
+evolution is seamless in agile so that unlocks automated regression testing valuable
+
+lehman laws -> CILOCCDF
+
+maintenance cost factors -> 
+team stability, contractual responsiblity, staff skills, program age and structure
+
+
+#system re-engineering
+advantages->reduced risk , reduced cost
+
+process activities of the system re-engineering
+- source code translation
+- reverse engineering
+- program structure improvement
+- program modularistation
+- data reeenginering
+
+re-engineering cost factors
+- the quality of software reengineered
+- tool support
+- extent of data conversion which is required
+- availability of the dev staff

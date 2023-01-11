@@ -1,0 +1,32 @@
+A decision model is an idealized representation of the problem
+
+# it is a top down model like a triangle
+# strategy -> decision neural network tactis -> operations -> company
+
+#Example expert system
+
+expert knows symbloic numeric knowledge and those informations build knowledge base
+this knowledge base has rules
+and than those information used by non-expert to make an expert decision
+
+
+
+# Example expert system 2
+Architecture of the expert system
+
+non expert user -> <- user interface -> <- inference engine -> <- knowledge base -> <- knowledge acqusition engine <- expert
+
+also inference has a connection to the explenation module
+
+
+difference of decision support system and expert system
+
+dss goal is help user make a decision
+es goal is a provide expert advice
+
+dss method is data-model-presentation
+expert method is ask questions, applies rules, explains
+
+dss type of problems general limited by user models
+es type of problems narrow domain
+

@@ -1,0 +1,39 @@
+Data warehouse,
+
+-DW is a central repository where data is obtained from different resources
+-raw data, subject-based, integrated, time-sliced, unchanging
+- DW OLAP complementary
+- OLAP is answer for multi-dimensional analytical queries
+
+GRAPH-> data sources -> ETL(extraction, transformation, load) -> dw -> OLAP ANALYsis, reporting,data mining
+
+oltp vs olap
+olap summarized data, oltp data is detailed
+olap target decision support systems, oltp designed for data entry,
+olap report perf. important, oltp operation perf imp.
+olap reporting oriented, oltp transaction oriented,
+olap avrg perf is same, oltp performance variaes
+
+
+dw architecture
+
+- enterprise dw
+stores organization entire data, it can contain detailed data as well summarized data
+- data market or data mart
+particular specific departmant
+- virtual data warehouse
+summary data set created for effective querying
+
+
+olap 
+star-schema
+snow-flake schema
+
+
+
+database (not olap) oltp
+
+DDL -> data definition language, create  alter drop
+DML -> data manipulatino language, insert, select, update, delete
+DATA Dictionary -> Stores definiton of data elements
+TCL -> Transaction control language -> begin, tran commit rollback

@@ -1,0 +1,53 @@
+
+four basic functions of businness operations
+1. finance/accounting
+2. manufacturing/production
+3. sales/marketing
+4. hr
+
+product/service center of the all operations
+
+
+transaction processing
+
+hardware and software hosting supporting a transaction oriented application performs of a routineo to conduct
+
+
+
+ERP -> elementary production functions
+purchase, production planning hr accounting invernoty...
+
+
+production operation levels
+
+top down triangle -> 
+management information system(strategy, marketing)
+businness information system(finance accounting, personnel) // ERP, PLM, HRM
+Manufacturing information system(production manager, technologist, master) // MOM, MES, MMS
+Production(machining,center,prodcution line) PLC SENSORS
+
+
+production administartion levels
+top down triange
+
+erp enterprise level
+mes management level
+sacada supervisory level
+plc control level
+sensor*signals field level
+
+
+MES -> to track document transformation of raw materials to finished goods
+
+MRP -> Materials Requirements Planning software based inventory and supply management for businness
+MRP is for inverntory management alike
+
+
+SCADA -> Supervisory Control and Data Acqusition 
+high level supervision of machines and processes (networked data programming?)
+
+EDI -> techinical level representation of businness conversation
+independent of communication software tech
+transmitted using any technology agreed EX: ftp, email, http, MQ
+ex of edi clients -> healhcare, pharmacity, manufactiring
+

@@ -146,3 +146,50 @@ B2B -> EDI, commodity auctions, EDI: Electronci data interchange: computer to co
 B2C -> sales support
 C2B -> minimal exmaples possibly reverse auctions like priceline
 C2C -> auctoion sites ex: ebay
+
+
+possible answers of questions
+
+1.	Stratejik karar formülasyonunun 3 adımını açıklayınız / Explain 3 steps of strategy formulation?
+
+maybe this -> strategy formulation, strategy implementation, strategy evaluation
+
+or this -> 
+first step do a situtation analysis that includes self-evaluation competitor analysis, both internal and external
+micro and macro
+second step is gathered information lights the objectives
+- Objective statements
+1.vision statements
+2. missions statements(society)
+3. coorparate objectives (financial and strategic)
+4. unit objectives (financial and strategic)
+third step is those objectives lights strategic plan
+
+
+2. EDI -> Electronic data interchange is the concept of businesses electronically communicating information that was traditionally communicated on paper, such as purchase orders, advance ship notices, and invoices.  B2B
+
+3. Compare Expert System with Decision Support System in terms of goal, method and type of problems that can be applied
+Ans: 
+
+dss goal is help user make a decision
+es goal is a provide expert advice
+
+dss method is data-model-presentation
+expert method is ask questions, applies rules, explains
+
+dss type of problems general limited by user models
+es type of problems narrow domain
+
+4. Design a decisino tree ex decisino tree is person fit
+
+5. Explain 5 steps of strategy implementation
+
+strategy implementation
+
+- allocation of resources
+- establish chain of command
+- assign tasks 
+- manage processes and monitor results
+- acquire necessary resources
+
+6. ?

@@ -1,0 +1,127 @@
+
+1.What are the targets of Business Continuity
+ans:The main goal of business continuity planning is to support key company activities during a crisis. Planning ensures a company can run with limited resources or restricted access to buildings. Continuity planning also aims to minimize revenue or reputation
+
+
+
+1.	Stratejik karar formülasyonunun 3 adımını açıklayınız / Explain 3 steps of strategy formulation?
+
+maybe this -> strategy formulation, strategy implementation, strategy evaluation
+
+or this -> 
+first step do a situtation analysis that includes self-evaluation competitor analysis, both internal and external
+micro and macro
+second step is gathered information lights the objectives
+- Objective statements
+1.vision statements
+2. missions statements(society)
+3. coorparate objectives (financial and strategic)
+4. unit objectives (financial and strategic)
+third step is those objectives lights strategic plan
+
+
+2. EDI -> Electronic data interchange is the concept of businesses electronically communicating information that was traditionally communicated on paper, such as purchase orders, advance ship notices, and invoices.  B2B
+
+3. Compare Expert System with Decision Support System in terms of goal, method and type of problems that can be applied
+Ans: 
+
+dss goal is help user make a decision
+es goal is a provide expert advice
+
+dss method is data-model-presentation
+expert method is ask questions, applies rules, explains
+
+dss type of problems general limited by user models
+es type of problems narrow domain
+
+4. Design a decisino tree ex decisino tree is person fit
+
+5. Explain 5 steps of strategy implementation
+
+strategy implementation
+
+- allocation of resources
+- establish chain of command
+- assign tasks 
+- manage processes and monitor results
+- acquire necessary resources
+
+
+
+6. What is OLAP and what are the fields of usage of OLAP?
+
+- OLAP is answer for multi-dimensional analytical queries
+
+- high traffic e-commerce, banking, finance, 
+
+7. / Explain  the Basic Database Operations
+
+DDL -> data definition language, create  alter drop
+DML -> data manipulatino language, insert, select, update, delete
+DATA Dictionary -> Stores definiton of data elements
+TCL -> Transaction control language -> begin, tran commit rollback
+
+
+
+8 What is EDI and what is it used for?. 
+
+EDI -> techinical level representation of businness conversation
+independent of communication software tech
+transmitted using any technology agreed EX: ftp, email, http, MQ
+ex of edi clients -> healhcare, pharmacity, manufactiring
+
+
+
+EDI -> techinical level representation of businness conversation
+independent of communication software tech
+transmitted using any technology agreed EX: ftp, email, http, MQ
+ex of edi clients -> healhcare, pharmacity, manufactiring
+
+
+
+9. porter chrome bookmarks
+
+
+10. what is data mining
+Data mining is the process of sorting through large data sets to identify patterns and relationships that can help solve business problems through data analysis. Data mining techniques and tools enable enterprises to predict future trends and make more-informed business decisions.
+
+
+o
+
+11 .At which level of decision level is model used and why??
+
+This is the level
+# it is a top down model like a triangle
+# strategy -> decision neural network tactis -> operations -> company
+
+
+12. . Design an OLAP cube for a banking or supermarket application. Show your cube dimensions  and cell data field.
+
+sol ust yuz time,
+on yuz sol- urun
+on yuz alt renk
+
+
+13. / What is prediction and simulatio
+
+Simulation computes the model response using input data and initial conditions. Prediction computes the model response at some specified amount of time in the future using the current and past values of measured input and output values, as well as initial conditions.
+
+
+14. 
+
+RTO : Recovery time objective refers to the time required for the
+production system to recover from a disaster. A smaller RTO means a
+shorter service interruption.
+• RPO : Recovery point objective refers to the time when the data restored in
+the event of a disaster was backed up. It is used to measure the amount of
+data lost in a disaster. A smaller RPO means less data loss.
+• WRT : Working recovery time is the time that elapses between bringing the
+system back online and finishing the input of data captured on paper
+procedures
+• MOT/MTD : Total time an organization can sustain from when the outage
+occurs until normal business operations are resume
+
+
+15. what is mis?
+
+Management Information Systems (MIS) is the study of people, technology, organizations, and the relationships among them. MIS professionals help firms realize maximum benefit from investment in personnel, equipment, and business processes.

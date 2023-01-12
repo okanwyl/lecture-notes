@@ -3,7 +3,7 @@ A decision model is an idealized representation of the problem
 # it is a top down model like a triangle
 # strategy -> decision neural network tactis -> operations -> company
 
-#Example expert system
+#expert system
 
 expert knows symbloic numeric knowledge and those informations build knowledge base
 this knowledge base has rules
@@ -11,7 +11,7 @@ and than those information used by non-expert to make an expert decision
 
 
 
-# Example expert system 2
+#expert system 2
 Architecture of the expert system
 
 non expert user -> <- user interface -> <- inference engine -> <- knowledge base -> <- knowledge acqusition engine <- expert
@@ -30,3 +30,119 @@ expert method is ask questions, applies rules, explains
 dss type of problems general limited by user models
 es type of problems narrow domain
 
+
+ES Example system daily usage
+
+CaDet -> Cancer decision support tool
+DENDRAL -> helps chemists identify unknown organic molecules
+DXplain -> is a clinical support system that diagnoses various diseases
+MYCIN -> identifies bacteria such as bacterima and meningitis
+PXDES -> determines the type and severiy of a lung cancer
+R1/XCON -> expert system for building computer based on customer specifications
+
+ES Problem Suitability
+
+Narrow well defined domain
+solutions that require an expert decision
+complex logical processing needs some inference
+handle and data missing, ill-structured data(bad thing)
+need cooperative expert
+repeatable decision
+
+
+
+ES Development
+// Expert and knowledge engineer builds knowledge base and programmer builds custom program in LISP
+// Designer design decision trees, forward and backward chaining
+// custom program and shells connected to the knowledge base
+// ES screens seen by user
+
+ES shells(command line tooling)
+custom programing (lisp, prolog)
+
+
+
+Limitations of the ES
+fragile systems (kirilgan)
+mistakes and accidents who is responsible?
+vague rules(belirsiz degerler)
+conflciting experts
+unforeseen events
+
+
+Knowledge Management
+a collection of documents and data
+- experts
+- highly organized groupware
+- vurgulayan context
+example: business decisions
+
+neural network -> positive nodes exicitatory connection, negative value means inhibitory connectionos
+if you sum all that that means linear combination
+activation function controls the amplitude of the output
+
+
+fuzzy logic example -> is it cold 0.9 very much, litte 0.25 , very less 0.1
+
+
+example extended version of the loan system 
+AI -> Deterime rules, neural network weights, evaluate new data and make recommendation
+
+
+example of the email categorization -> steps to set rules
+define conditions -> take actions -> define exceptions
+
+
+strategic analysis -> common factors
+
+- competition is main factor for strategic analysis
+- suppliers and customers should be maintained
+- be best firm
+- block competitor by make happy customers
+
+
+
+strategy formulation -> 
+
+1. situtation analysis : self-evaluation and competitor analysis, both internal and external, micro and macro
+2. objectives are set via situtation analysis 
+2.a vision
+2.b mission (society)
+2.c corporate 
+2.d unit(financial and strategic)
+
+those objectives should suggest a strategic plan
+
+
+strategy implementation
+
+- allocation of resources
+- establish chain of command
+- assign tasks 
+- manage processes and monitor results
+- acquire necessary resources
+
+
+
+michael porter's five forces model
+
+
+main component: rivalry among existing competitors
+others: suppliers, threat of substiute products services, power of buyers, threat of new entrants
+
+
+
+value chain: value adding activies
+ex: primary-> inbound logistics, operations
+support activities -> administrative infrastructure management
+costs and value drivers are value activity
+ultimate goal maximize value creation while minimizing costs
+
+
+
+forms of electronic commerce
+
+B2B -> EDI, commodity auctions, EDI: Electronci data interchange: computer to computer exchange of business documents
+B2C -> sales support
+C2B -> minimal exmaples possibly reverse auctions like priceline
+C2C -> auctoion sites ex: ebay
